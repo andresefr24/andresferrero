@@ -4,9 +4,9 @@ import * as utility from '../utility/utility';
 const initialState = {
     theme:{
         colors:{
-            primary:'',
-            primary_light:'',
-            primary_dark:''
+            primary:'#3E92CC',
+            primary_light:'#8EDCE6',
+            primary_dark:'#13293D',
         },
         measures:{
             header_height:{

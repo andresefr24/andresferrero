@@ -11,7 +11,12 @@ class MainRouter extends React.Component {
                 {
                     Object.keys(routes).map((route,index)=>{
                         return(
-                            <Route key={index} path={'/'+(route==='home'?'':route+'/')} exact={route==='home'} component={routes[route]}/>
+                            <Route
+                                key={index}
+                                path={'/'+(route==='home'?'':route+'/')}
+                                exact={route==='home'}
+                                component={routes[route]}
+                            />
                         )
                     })
                 }
