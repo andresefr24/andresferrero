@@ -1,1 +1,1 @@
-export const LOAD_CONTENT = 'LOAD_CONTENT';
+export const A = 'A';
