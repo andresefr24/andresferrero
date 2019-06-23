@@ -1,10 +1,12 @@
 import ContentReducer from './ContentReducer/ContentReducer';
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux';
 import thunk from 'redux-thunk';
+import ThemeReducer from "./ThemeReducer/ThemeReducer";
 
 //Reducer combiner
 const rootReducer = combineReducers({
     ContentReducer: ContentReducer,
+    ThemeReducer: ThemeReducer
 });
 
 //Redux devtools enabler/injector

@@ -1,9 +1,9 @@
 import * as actionTypes from './actionTypes';
-import FirebaseFetch from "../../helpers/firebaseFetch";
+import FirebaseFetch from "../../helpers/FirebaseFetch";
 
 export const fetch_content = () =>{
     return dispatch =>{
-        //firebaseFetch((data)=>dispatch(load_content(data)))
+        FirebaseFetch((data)=>dispatch(load_content(data)))
     }
 };
 

@@ -10,7 +10,7 @@ const ContentReducer = (state = initialState, action) => {
     switch (action.type) {
 
         case actionTypes.LOAD_CONTENT:return utility.updateObject(state,{
-            content:action.type
+            content:action.val
         });
 
         default: return state;
