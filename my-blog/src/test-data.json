@@ -1,0 +1,286 @@
+{
+  "personal-data":{
+    "name":"Andrés Eduardo Ferrero Romero",
+    "city":"Madrid",
+    "country":"Spain",
+    "postal-code":28028,
+    "languages":[
+      {
+        "name":"Spanish",
+        "proficiency":"Native"
+      },
+      {
+        "name":"English",
+        "proficiency":"Advanced"
+      }
+    ],
+    "phone-number":"+34-652-61-07-46",
+    "email":"andresefr24@gmail.com",
+    "address":"Ferrer del Río St. 19, 1C"
+  },
+  "skills":[
+    "HTML5",
+    "CSS3",
+    "Javascript",
+    "JSX",
+    "React",
+    "React-Native",
+    "Redux",
+    "SVG",
+    "Grunt",
+    "Gulp",
+    "SASS",
+    "UI/UX"
+  ],
+  "experience":[
+    {
+      "title":"MNI Tech On Rails",
+      "timespan":{
+        "start":"Jan 2019",
+        "end":null
+      },
+      "job-title":"Software engineer",
+      "description":"React and React Native developer implant for YesWeRate Android & iOS, webApp developer."
+    },
+    {
+      "title":"TotalTalent",
+      "timespan":{
+        "start":"Nov 2017",
+        "end":"Apr 2018"
+      },
+      "job-title":"Front-end developer",
+      "description":"Vanilla JS, SASS, jQuery Youtube-like project."
+    },
+    {
+      "title":"Fractals Studio",
+      "timespan":{
+        "start":"May 2016",
+        "end":"Oct 2017"
+      },
+      "job-title":"Founder - CTO",
+      "description":"Project manager & front - end developer, 17 projects finished."
+    },
+    {
+      "title":"AAWebDesigners",
+      "timespan":{
+        "start":"Jan 2014",
+        "end":"Apr 2016"
+      },
+      "job-title":"Founder - CTO",
+      "description":"CRM, project manager & front - end developer."
+    },
+    {
+      "title":"Freelance web developer",
+      "timespan":{
+        "start":"Jul 2013",
+        "end":"present"
+      },
+      "job-title":"Front-end developer",
+      "description":"Front-end developer working as freelance on free time."
+    }
+  ],
+  "studies":[
+    {
+      "title":"Universidad Central de Venezuela",
+      "timespan":{
+        "start":"Oct 2012",
+        "end":"Sep 2017"
+      },
+      "description":"Computer Science"
+    },
+    {
+      "title":"Universidad Simón Bolívar",
+      "timespan":{
+        "start":"Sep 2007",
+        "end":"Apr 2011"
+      },
+      "description":"Computer engineering"
+    }
+  ],
+  "workshops":[
+    {
+      "title":"Introduction to MongoDB",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"ReactJs: Getting Started",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"Building mobile apps with the Ionic framework",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"AngularJS Material Fundamentals",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"Angular: Getting started",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"AngularJS Routing In-depth",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"Introduction to NodeJS",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"AngularJS Fundamentals",
+      "date":"2018",
+      "description":"Pluralsight LLC"
+    },
+    {
+      "title":"Single Page Applications with jQuery and AngularJS",
+      "date":"2017",
+      "description":"Microsoft Virtual Academy"
+    },
+    {
+      "title":"Github",
+      "date":"2017",
+      "description":"Microsoft Virtual Academy"
+    },
+    {
+      "title":"AngularJS fundamentals for developers",
+      "date":"2017",
+      "description":"Microsoft Virtual Academy"
+    },
+    {
+      "title":"Javascript fundamentals for developers",
+      "date":"2017",
+      "description":"Microsoft Virtual Academy"
+    },
+    {
+      "title":"HTML and CSS3 fundamentals for developers",
+      "date":"2017",
+      "description":"Microsoft Virtual Academy"
+    },
+    {
+      "title":"Introduccion al desarrollo web",
+      "date":"2014",
+      "description":"Universitat D'Alacant - Google Actívate"
+    }
+  ],
+  "portfolio":[
+    {
+      "project-name":"Total talent",
+      "date":"2018",
+      "description":"Website that lets users upload videos showcasing their skills to promote their talent while making it able for jobhunters to find them.",
+      "client":"TotalTalent",
+      "link":"www.totaltalent.es",
+      "images":[]
+    },
+    {
+      "project-name":"Fractals Studio",
+      "date":"2017",
+      "description":"Promoting website for the services offered by marketing agency Fractals Studio.",
+      "client":"FractalsStudio",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Orchid House Cleaning",
+      "date":"2017",
+      "description":"New York based American company Orchid House Cleaning, the website offered a means to book cleaning for houses, offices, etc.",
+      "client":"Orchid House Cleaning Inc.",
+      "link":"www.orchidhousecleaning.com",
+      "images":[]
+    },
+    {
+      "project-name":"Verlas Inc.",
+      "date":"2016",
+      "description":"Event management company website.",
+      "client":"Verlas Inc.",
+      "link":"www.verlasinc.com",
+      "images":[]
+    },
+    {
+      "project-name":"Gis Power",
+      "date":"2016",
+      "description":"Promoting website for imports and exports of heavy machinery parts company.",
+      "client":"Gis Power C.A.",
+      "link":"www.gis-power.com",
+      "images":[]
+    },
+    {
+      "project-name":"Quinta Samambaya",
+      "date":"2016",
+      "description":"Promoting website for event location and management company.",
+      "client":"Samambaya C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Creative Phase",
+      "date":"2016",
+      "description":"Digital marketing company promoting website.",
+      "client":"Creative Phase C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Ananá Studio",
+      "date":"2016",
+      "description":"Digital production company promoting website.",
+      "client":"Alejandro Noya",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Mercacril",
+      "date":"2015",
+      "description":"Acrillic manufacture industry promoting website.",
+      "client":"Mercacril C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Detergentes MAC",
+      "date":"2015",
+      "description":"Promoting website for a bleach brand.",
+      "client":"La Facultad Advertising C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"8vas JOINCIC",
+      "date":"2015",
+      "description":"Promoting website for a computer science university event.",
+      "client":"JOINCIC",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"Accserint",
+      "date":"2014",
+      "description":"Promoting website for law management company.",
+      "client":"Accserint de Venezuela C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"AAWebDesigners",
+      "date":"2014",
+      "description":"Promoting website for web development and design company.",
+      "client":"AAWebDesigners C.A.",
+      "link":null,
+      "images":[]
+    },
+    {
+      "project-name":"SnowNetworkCorp",
+      "date":"2013",
+      "description":"Promoting website for startup dedicated to furniture sales.",
+      "client":"Alams Padrón",
+      "link":null,
+      "images":[]
+    }
+  ]
+}
