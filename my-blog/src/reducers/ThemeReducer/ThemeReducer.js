@@ -1,5 +1,5 @@
-import * as actionTypes from './actionTypes';
-import * as utility from '../utility/utility';
+//import * as actionTypes from './actionTypes';
+//import * as utility from '../utility/utility';
 
 const initialState = {
     theme:{
@@ -7,6 +7,9 @@ const initialState = {
             primary:'#3E92CC',
             primary_light:'#8EDCE6',
             primary_dark:'#13293D',
+            secondary:'#EFA226',
+            light:'#E8FCFF',
+            dark:'#565254'
         },
         measures:{
             header_height:{

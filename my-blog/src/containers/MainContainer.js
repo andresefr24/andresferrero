@@ -6,6 +6,7 @@ import img from '../assets/img/pattern.png';
 
 const StyledContainer = styled(Container)`    
     min-height:100vh;    
+    overflow-x:hidden;
     padding:0;
     background-color:${props=>props.theme.colors.primary}; 
     background-image:url(${img});

@@ -49,6 +49,14 @@ const StyledLink = styled(Link)`
 `;
 
 class HeaderOptions extends React.Component{
+
+    componentWillMount = () =>{
+        let pathName = window.location.pathname.replace('/',[]).replace('/',[]);
+        Object.keys(routes).forEach(route=>{
+            if(route===pathName){this.props.navigate_to(route)}
+        })
+    };
+
     render(){
         return(
             <Row

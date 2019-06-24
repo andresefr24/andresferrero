@@ -11,13 +11,16 @@ class App extends React.Component {
     };
 
     render() {
-        return (
-            <ThemeProvider theme={this.props.theme}>
-                <MainContainer>
-
-                </MainContainer>
-            </ThemeProvider>
-        );
+        if(this.props.content!==undefined){
+            return (
+                <ThemeProvider theme={this.props.theme}>
+                    <MainContainer/>
+                </ThemeProvider>
+            );
+        }
+        else{
+            return <div>Loader goes here</div>
+        }
     }
 }
 

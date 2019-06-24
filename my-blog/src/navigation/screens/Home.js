@@ -59,7 +59,7 @@ class Home extends React.Component {
                     <h1>Welcome to my site</h1>
                     <p>In this space i post about myself. My passions, my experience and other things involving my career as a Front-end developer.</p>
                     <p>Feel free to contact me for business inquiries or anything that may be troubling you.</p>
-                    <p>to download my CV <a style={{color:this.props.theme.colors.primary_light}} href=''>Click here!</a></p>
+                    <p>to download my CV <span style={{color:this.props.theme.colors.primary_light}}>Click here!</span></p>
                 </Row>
                 <Row/>
                 <Row/>

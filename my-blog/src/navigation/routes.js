@@ -1,4 +1,3 @@
-import React from 'react';
 import Home from './screens/Home';
 import About from "./screens/About";
 import Portfolio from "./screens/Portfolio";
