@@ -8,10 +8,11 @@ const StyledHeader = styled.header`
     top:0;
     left:0;
     width:100vw;    
-    background-color:transparent;
+    background-color:${props=>props.theme.colors.primary};
+    background-image:url(${process.env.PUBLIC_URL+'/assets/img/pattern.png'});
     z-index:100;    
     
-    @media (max-width: 575px) { 
+    @media (max-width: 575px) {
         height:${props=>props.theme.measures.header_height.xs};
     }
     

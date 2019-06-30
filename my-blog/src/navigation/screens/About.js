@@ -2,48 +2,27 @@ import React from 'react';
 import {Col, Row} from 'reactstrap';
 import SectionContainer from "../../containers/SectionContainer";
 import connect from "react-redux/es/connect/connect";
-import styled, {withTheme} from 'styled-components';
-
-const SectionTitle = styled.h1`
-    width:100%;
-    text-align:center;
-    color:${props => props.color || props.theme.colors.primary_dark};
-    font-size:45px;
-`;
-
-const AboutSubtitle = styled.p`
-    font-size:30px;
-    font-weight:bold;
-    color:${props => props.color || props.theme.colors.primary_dark};
-    text-transform:allcaps;
-`;
-
-const ShowcaseTitle = styled.p`
-    font-size:18px;
-    font-weight:bold;
-    color:${props => props.color || props.theme.colors.primary_light};
-`;
-
-const ShowcaseText = styled.p`
-    font-size:14px;    
-    color:${props => props.color || props.theme.colors.primary_dark};
-`;
+import {withTheme} from 'styled-components';
+import SectionTitle from "../../components/labels/SectionTitle";
+import AboutSubtitle from "../../components/labels/AboutSubtitle";
+import ShowcaseTitle from "../../components/labels/ShowcaseTitle";
+import ShowcaseText from "../../components/labels/ShowcaseText";
+import AboutBox from "../../containers/cards/AboutBox";
+import InnerShowcaseCard from "../../containers/cards/InnerShowcaseCard";
 
 class About extends React.Component {
     render() {
         //console.log(this.props.content);
         return (
             <SectionContainer>
-                <Row style={{padding: '3vw'}}>
+                <Row>
                     <SectionTitle>I'm Andrés, a Madrid based front-end developer.</SectionTitle>
                 </Row>
-                <Row>
-                    <Col
-                        xs={12} sm={12} md={6} lg={2} xl={2}
-                        style={{
-                            backgroundColor: this.props.theme.colors.primary_dark,
-                            padding: '1vw'
-                        }}
+                <Row style={{justifyContent:'center',margin:0}}>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={2} xl={2}
+                        background={this.props.theme.colors.primary_dark}
+                        independent
                     >
                         <Row>
                             <Col>
@@ -58,7 +37,7 @@ class About extends React.Component {
                                     return (
                                         <Col
                                             key={index}
-                                            xs={12} sm={12} md={12} lg={12} xl={12}
+                                            xs={6} sm={6} md={6} lg={12} xl={12}
                                         >
                                             <ShowcaseText color={this.props.theme.colors.light}>
                                                 {skill}
@@ -68,13 +47,11 @@ class About extends React.Component {
                                 })
                             }
                         </Row>
-                    </Col>
-                    <Col
-                        xs={12} sm={12} md={6} lg={10} xl={10}
-                        style={{
-                            backgroundColor: this.props.theme.colors.primary_light,
-                            padding: '1vw'
-                        }}
+                    </AboutBox>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={10} xl={10}
+                        background={this.props.theme.colors.primary_light}
+                        independent
                     >
                         <Row>
                             <Col>
@@ -89,7 +66,7 @@ class About extends React.Component {
                             {
                                 this.props.content.experience.map((showcase, index) => {
                                     return (
-                                        <Col
+                                        <InnerShowcaseCard
                                             key={index}
                                             xs={12} sm={12} md={6} lg={6} xl={6}
                                         >
@@ -107,36 +84,33 @@ class About extends React.Component {
                                             <ShowcaseText>
                                                 {showcase.description}
                                             </ShowcaseText>
-                                        </Col>
+                                        </InnerShowcaseCard>
                                     )
                                 })
                             }
                         </Row>
-                    </Col>
-                    <Col
-                        xs={0} sm={0} md={0} lg={2} xl={2}
-                        style={{
-                            backgroundColor: this.props.theme.colors.secondary,
-                            padding: '1vw'
-                        }}
+                    </AboutBox>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={2} xl={2}
+                        background={this.props.theme.colors.secondary}
                     >
                         <AboutSubtitle>
                             Studies
                         </AboutSubtitle>
-                    </Col>
-                    <Col
-                        xs={12} sm={12} md={12} lg={10} xl={10}
-                        style={{
-                            backgroundColor: this.props.theme.colors.primary_dark,
-                            padding: '1vw'
-                        }}
+                    </AboutBox>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={10} xl={10}
+                        background={this.props.theme.colors.primary_dark}
+                        separated
+                        independent
                     >
                         <Row>
                             {
                                 this.props.content.studies.map((degree, index) => {
                                     return (
-                                        <Col
+                                        <InnerShowcaseCard
                                             key={index}
+                                            xs={12} sm={12} md={12} lg={6} xl={6}
                                         >
                                             <ShowcaseTitle color={this.props.theme.colors.secondary}>
                                                 {degree.title}
@@ -147,38 +121,33 @@ class About extends React.Component {
                                             <ShowcaseText color={this.props.theme.colors.light}>
                                                 {'From ' + degree.timespan.start + (degree.timespan.end ? ' through ' + degree.timespan.end : '')}
                                             </ShowcaseText>
-                                        </Col>
+                                        </InnerShowcaseCard>
                                     )
                                 })
                             }
                         </Row>
-                    </Col>
-                    <Col
-                        xs={0} sm={0} md={0} lg={2} xl={2}
-                        style={{
-                            backgroundColor: this.props.theme.colors.primary_dark,
-                            padding: '1vw'
-                        }}
+                    </AboutBox>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={2} xl={2}
+                        background={this.props.theme.colors.primary_dark}
                     >
                         <AboutSubtitle
                             color={this.props.theme.colors.secondary}
                         >
                             Workshops
                         </AboutSubtitle>
-                    </Col>
-                    <Col
-                        xs={12} sm={12} md={12} lg={10} xl={10}
-                        style={{
-                            backgroundColor: this.props.theme.colors.primary_light,
-                            padding: '1vw'
-                        }}
+                    </AboutBox>
+                    <AboutBox
+                        xs={11} sm={11} md={11} lg={10} xl={10}
+                        background={this.props.theme.colors.primary_light}
+                        separated
                     >
                         <Row>
                             {
                                 this.props.content.workshops.map((workshop, index) => {
                                     //console.log(workshop);
                                     return (
-                                        <Col
+                                        <InnerShowcaseCard
                                             key={index}
                                             xs={12} sm={12} md={6} lg={6} xl={6}
                                         >
@@ -191,12 +160,12 @@ class About extends React.Component {
                                             <ShowcaseText>
                                                 {workshop.description}
                                             </ShowcaseText>
-                                        </Col>
+                                        </InnerShowcaseCard>
                                     )
                                 })
                             }
                         </Row>
-                    </Col>
+                    </AboutBox>
                 </Row>
             </SectionContainer>
         )

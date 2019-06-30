@@ -3,6 +3,7 @@ import {Container} from 'reactstrap';
 import styled from 'styled-components';
 import MainRouter from "../navigation/MainRouter";
 import img from '../assets/img/pattern.png';
+import Modal from "../navigation/Modal/Modal";
 
 const StyledContainer = styled(Container)`    
     min-height:100vh;    
@@ -17,6 +18,7 @@ class MainContainer extends React.Component {
         return (
             <StyledContainer fluid>
                 <MainRouter/>
+                <Modal/>
             </StyledContainer>
         )
     }

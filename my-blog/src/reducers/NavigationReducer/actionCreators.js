@@ -6,3 +6,11 @@ export const navigate_to = (val) =>{
         val:val
     }
 };
+
+export const toggle_modal = (val,content) =>{
+    return{
+        type:actionTypes.TOGGLE_MODAL,
+        val:val,
+        content:content
+    }
+};
