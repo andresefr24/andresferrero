@@ -176,7 +176,8 @@
       "description":"Website that lets users upload videos showcasing their skills to promote their talent while making it able for jobhunters to find them.",
       "client":"TotalTalent",
       "link":"www.totaltalent.es",
-      "images":[]
+      "images":["totaltalent1.png","totaltalent2.png","totaltalent3.png","totaltalent4.png"],
+      "media_folder":"totaltalent"
     },
     {
       "project-name":"Fractals Studio",
@@ -184,7 +185,8 @@
       "description":"Promoting website for the services offered by marketing agency Fractals Studio.",
       "client":"FractalsStudio",
       "link":null,
-      "images":[]
+      "images":["fractalsstudio1.png","fractalsstudio2.png"],
+      "media_folder":"fractalsstudio"
     },
     {
       "project-name":"Orchid House Cleaning",
@@ -192,7 +194,8 @@
       "description":"New York based American company Orchid House Cleaning, the website offered a means to book cleaning for houses, offices, etc.",
       "client":"Orchid House Cleaning Inc.",
       "link":"www.orchidhousecleaning.com",
-      "images":[]
+      "images":["orchidhousecleaning1.png","orchidhousecleaning2.png","orchidhousecleaning3.png"],
+      "media_folder":"orchidhousecleaning"
     },
     {
       "project-name":"Verlas Inc.",
@@ -200,7 +203,8 @@
       "description":"Event management company website.",
       "client":"Verlas Inc.",
       "link":"www.verlasinc.com",
-      "images":[]
+      "images":["verlasinc1.png","verlasinc2.png","verlasinc1.jpg"],
+      "media_folder":"verlasinc"
     },
     {
       "project-name":"Gis Power",
@@ -208,7 +212,8 @@
       "description":"Promoting website for imports and exports of heavy machinery parts company.",
       "client":"Gis Power C.A.",
       "link":"www.gis-power.com",
-      "images":[]
+      "images":["gispower1.png","gispower2.png","gispower3.png","gispower4.png"],
+      "media_folder":"gispower"
     },
     {
       "project-name":"Quinta Samambaya",
@@ -216,7 +221,8 @@
       "description":"Promoting website for event location and management company.",
       "client":"Samambaya C.A.",
       "link":null,
-      "images":[]
+      "images":["samambaya1.png","samambaya2.png","samambaya3.png","samambaya4.png"],
+      "media_folder":"samambaya"
     },
     {
       "project-name":"Creative Phase",
@@ -224,7 +230,8 @@
       "description":"Digital marketing company promoting website.",
       "client":"Creative Phase C.A.",
       "link":null,
-      "images":[]
+      "images":["creativephase1.png","creativephase2.png","creativephase3.png"],
+      "media_folder":"creativephase"
     },
     {
       "project-name":"Ananá Studio",
@@ -232,15 +239,17 @@
       "description":"Digital production company promoting website.",
       "client":"Alejandro Noya",
       "link":null,
-      "images":[]
+      "images":["ananastudio1.png","ananastudio2.png","ananastudio3.png","ananastudio4.png"],
+      "media_folder":"ananastudio"
     },
     {
       "project-name":"Mercacril",
       "date":"2015",
-      "description":"Acrillic manufacture industry promoting website.",
+      "description":"Acrylic manufacture industry promoting website.",
       "client":"Mercacril C.A.",
       "link":null,
-      "images":[]
+      "images":["mercacril1.jpg","mercacril2.jpg","mercacril3.jpg","mercacril1.jpg"],
+      "media_folder":"mercacril"
     },
     {
       "project-name":"Detergentes MAC",
@@ -248,7 +257,8 @@
       "description":"Promoting website for a bleach brand.",
       "client":"La Facultad Advertising C.A.",
       "link":null,
-      "images":[]
+      "images":["detergentesmac1.png","detergentesmac2.png","detergentesmac3.png","detergentesmac4.png"],
+      "media_folder":"detergentesmac"
     },
     {
       "project-name":"8vas JOINCIC",
@@ -256,7 +266,8 @@
       "description":"Promoting website for a computer science university event.",
       "client":"JOINCIC",
       "link":null,
-      "images":[]
+      "images":["joincic1.jpg","joincic2.jpg","joincic3.jpg","joincic4.jpg"],
+      "media_folder":"joincic"
     },
     {
       "project-name":"Accserint",
@@ -264,7 +275,8 @@
       "description":"Promoting website for law management company.",
       "client":"Accserint de Venezuela C.A.",
       "link":null,
-      "images":[]
+      "images":["accserint1.png","accserint2.png","accserint3.png","accserint4.png","accserint5.png","accserint6.png"],
+      "media_folder":"accserint"
     },
     {
       "project-name":"AAWebDesigners",
@@ -272,7 +284,8 @@
       "description":"Promoting website for web development and design company.",
       "client":"AAWebDesigners C.A.",
       "link":null,
-      "images":[]
+      "images":["aawebdesigners1.png","aawebdesigners2.png","aawebdesigners3.png","aawebdesigners4.png"],
+      "media_folder":"aawebdesigners"
     },
     {
       "project-name":"SnowNetworkCorp",
@@ -280,7 +293,8 @@
       "description":"Promoting website for startup dedicated to furniture sales.",
       "client":"Alams Padrón",
       "link":null,
-      "images":[]
+      "images":["snownetworkcorp1.jpg","snownetworkcorp2.jpg","snownetworkcorp3.png","snownetworkcorp4.png"],
+      "media_folder":"snownetworkcorp"
     }
   ]
 }

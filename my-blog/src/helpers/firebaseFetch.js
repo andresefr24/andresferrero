@@ -1,6 +1,6 @@
-import firebase from "firebase";
+import * as firebase from "firebase";
 
-const FirebaseFetch = (callback) =>{
+const firebaseFetch = (callback) =>{
     let firebaseConfig = {
         apiKey: "AIzaSyC6HAfjXdABB74Hm2YqaHsoMyK2_PZf6a4",
         authDomain: "myblog-6d496.firebaseapp.com",
@@ -22,4 +22,4 @@ const FirebaseFetch = (callback) =>{
         });
 };
 
-export default FirebaseFetch;
+export default firebaseFetch;
