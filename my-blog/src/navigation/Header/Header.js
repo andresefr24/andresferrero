@@ -11,25 +11,29 @@ const StyledHeader = styled.header`
     background-color:${props=>props.theme.colors.primary};
     background-image:url(${process.env.PUBLIC_URL+'/assets/img/pattern.png'});
     z-index:100;    
+    overflow:hidden;
     
     @media (max-width: 575px) {
         height:${props=>props.theme.measures.header_height.xs};
+        display:none;
     }
     
     @media (min-width: 576px) { 
         height:${props=>props.theme.measures.header_height.sm};
+        display:none;
     }
     
     @media (min-width: 768px) { 
         height:${props=>props.theme.measures.header_height.md};
+        display:block;
     }
     
     @media (min-width: 992px) { 
-        height:${props=>props.theme.measures.header_height.lg};
+        height:${props=>props.theme.measures.header_height.lg};        
     }
     
     @media (min-width: 1200px) { 
-        height:${props=>props.theme.measures.header_height.xl};        
+        height:${props=>props.theme.measures.header_height.xl};               
     }
 `;
 

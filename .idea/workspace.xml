@@ -1,64 +1,854 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2618f0ac-fb2e-44a3-a878-0d912a60fccb" name="Default Changelist" comment="" />
+    <list default="true" id="2618f0ac-fb2e-44a3-a878-0d912a60fccb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-blog/src/navigation/Drawer/Drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/precache-manifest.f7ed7a328b197598cab6907f9a213297.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/css/main.c53bf42e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/css/main.c53bf42e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/2.fecb4c53.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/2.fecb4c53.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/main.0a7b50ee.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/main.0a7b50ee.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/runtime~main.a8a9905a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/build/static/js/runtime~main.a8a9905a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbjs" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbjs.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbjs.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbts.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/.bin/pbts.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/12be27eb0013a2d9021faf22126062b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/22fee9b7b9be45c6c618da8ffd5402f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/25d25ad288f0bb8b8264a59b8b1e0333.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/457f55b907357c403e11aeb414911d40.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/4f2d4b23980db001d0e1a060ec95f25f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/5532e37e89e2fa81002f2dcae57b55f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/5ab4e90e25935ab6f66c15332999e073.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/609e4db5116877f82da0966151c05854.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/670d7dea9b7703f6a599a411485caf77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/68a48c8ecdebac3add1ac1c31ed857ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/69edc7d5467e73beb81cc92225efccda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/72b5d5d61622ec1c3e54ba4fcb265f72.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/74d5c91ff6e944a3fde38d2dbc7f3ac0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/76ba1102114903ab519bf9ca1067c44c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/77306438d85e717d152df4f2ea097ea5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/7e3f1e28dcb360d6f77ca60b30c1e414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/7edec95e373cf2fb56a98a3b66d9aa92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/80c7e786adedea2715d3d1c6c3b84b5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/82328b3de7f34570047b339ef49338e3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/84f19c0f30b4fdb4f0ddb852844bd8f0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/9d0624f88589029ccbb5a10e2bb80692.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/9e88c3ac7ddf0b0569f252cdbdf9aa46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/9fe971f8aa89ebb9ad833d690f23203e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/a46a3d7b58a8ae8bcf732cfe1d2d0f3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/adf0ad1df62f1767e70c52af09a6288a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/b4a096561f31e447bab82c0273f8ec23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/b4e5d3b5fd15f4b504a654e5cfa0f431.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/b6e73619126bdf922ec8f85f351f555d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/b8cb16bef182fe26185fa26d6db5edeb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/bfe0d4f9197e5469526bd00218a61759.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/c79da39aebb7da404fee654f7f491cdf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/e1a8038e5eb32cdd65b49e2e84a03e6b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/e4d7cdd378e030d485237d9424338105.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/babel-loader/f39599d6c7564a8eca4d60abe2e172b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/26/9c/2ac2137481e4c39edde5a2ac66c2b0f6d2bc711831a49ef5a3b09ab10fd134ac357f18d5ac921eb77801962ae8f7e3074aa895ffcf9bb08a1fa8643a47ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/53/76/55b97062323b39a5ec381a7fb9d4d1f1ea9fae6ca9bbf2d01ced03d9f54ac519936868238a3058986da14ec5269e167a1262e7f8c61a22c183d82dc51cbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/a2/fc/58abeb85fd9e96067733a2f7a953b9824fa8d06d9cb4427aa11d9454813d0619a4db130cc261ea0b72a82c7a9f78e5958be1beb1f2601dd6967e1601c7f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/index-v5/6d/0a/5425fadf353957688129e817bb35764951ea1ca44e70f0cd904ccec38059" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/index-v5/90/81/eaf9ec522c874fda3c832a38f90d202e1f4e75bdb9be23c9a26836d448d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.cache/terser-webpack-plugin/index-v5/ff/56/62e5b7a01d7d400cddd36fa1de031f3201e6e73d0bd9410c08b893e84fe5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/app-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/app-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/database-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/database-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/database/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/database/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/logger/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/logger/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/node_modules/whatwg-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/node_modules/whatwg-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/util/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/util/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@firebase/webchannel-wrapper/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@firebase/webchannel-wrapper/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@grpc/proto-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@grpc/proto-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/aspromise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/aspromise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/base64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/base64/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/codegen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/codegen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/eventemitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/eventemitter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/float/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/float/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/inquire/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/inquire/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/pool/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/pool/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/utf8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/utf8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/long/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/long/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/assert.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/assert.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/async_hooks.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/async_hooks.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/child_process.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/child_process.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/cluster.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/cluster.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/crypto.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/crypto.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/dgram.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/dgram.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/domain.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/domain.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/events.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/events.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/fs.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/fs.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/http2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/https.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/https.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/inspector.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/inspector.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/net.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/net.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/os.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/os.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/path.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/path.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/perf_hooks.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/perf_hooks.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/punycode.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/punycode.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/querystring.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/querystring.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/readline.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/readline.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/repl.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/repl.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/stream.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/stream.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/tls.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/tls.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/ts3.2/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/ts3.2/globals.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/tty.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/tty.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/url.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/url.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/util.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/util.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/v8.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/v8.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/worker_threads.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/@types/node/zlib.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/@types/node/zlib.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/array-union/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/array-union/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/array-uniq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/array-uniq/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/ascli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/ascli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/async/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/balanced-match/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/balanced-match/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/brace-expansion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/brace-expansion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/node_modules/long/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/node_modules/long/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/camelcase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/camelcase/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/camelcase/license" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/camelcase/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/camelcase/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/camelcase/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/cliui/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/cliui/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/cliui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/cliui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/cliui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/cliui/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/cliui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/code-point-at/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/code-point-at/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/colour/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/colour/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/commander/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/concat-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/concat-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/core-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/core-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/decamelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/dom-storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/dom-storage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/email-addresses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/email-addresses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/encoding/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/encoding/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/escape-string-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/escape-string-regexp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/faye-websocket/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/faye-websocket/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/filename-reserved-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/filename-reserved-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/filenamify-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/filenamify-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/filenamify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/filenamify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/firebase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/firebase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/fs-extra/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/fs-extra/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/fs.realpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/fs.realpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/gh-pages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/gh-pages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/globby/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/globby/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/graceful-fs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/graceful-fs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/graceful-fs/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/graceful-fs/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/detect-libc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/detect-libc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/mkdirp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/needle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/needle.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/nopt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/pbjs" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/pbjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/pbjs.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/pbjs.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/rimraf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/rimraf.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/abbrev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/abbrev/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/aproba/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/aproba/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/are-we-there-yet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/are-we-there-yet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/balanced-match/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/balanced-match/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/brace-expansion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/brace-expansion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/chownr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/chownr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/code-point-at/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/code-point-at/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/concat-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/concat-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/console-control-strings/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/console-control-strings/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/core-util-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/deep-extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/deep-extend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/delegates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/delegates/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/detect-libc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/detect-libc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs-minipass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs-minipass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs.realpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs.realpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/gauge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/gauge/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/has-unicode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/has-unicode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ignore-walk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ignore-walk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inflight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inflight/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ini/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minipass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minipass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minizlib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minizlib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/node-pre-gyp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/node-pre-gyp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-bundled/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-bundled/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-packlist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-packlist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npmlog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npmlog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/number-is-nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/number-is-nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/once/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/once/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-homedir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-homedir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-tmpdir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-tmpdir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/osenv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/osenv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/path-is-absolute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/bin/pbjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/sources/binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/sources/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/sources/proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/targets/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/targets/commonjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/targets/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/targets/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/targets/proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/cli/pbjs/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf-light.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf-light.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf-light.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf.min.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/dist/protobuf.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Builder.Message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Builder.Service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.DotProto.Parser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.DotProto.Tokenizer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.DotProto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Enum.Value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Enum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Extension.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Message.ExtensionField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Message.Field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Message.OneOf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Namespace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Service.Method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Service.RPCMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.Service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.T.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Reflect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.Util.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/ProtoBuf.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Light-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/scripts/linenumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/scripts/prettify/Apache-License-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/scripts/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/scripts/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/styles/jsdoc-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/styles/prettify-jsdoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/docs/styles/prettify-tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/donate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/json.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/json.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/protoify/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/websocket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/websocket/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/websocket/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/websocket/www/example.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/examples/websocket/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/externs/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/externs/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/jsdoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/protobuf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Builder/Enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Builder/Message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Builder/Service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/DotProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/DotProto/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/DotProto/Tokenizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Enum/Value.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Message/ExtensionField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Message/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Message/OneOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Namespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Service/Method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/Service/RPCMethod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Reflect/T.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/ProtoBuf/Util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/bower.json.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/google/protobuf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/google/protobuf/descriptor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/PingExample.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/T139.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/T263.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/bench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/bench.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/camelcase.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/comments.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/complex.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/custom-options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/custom-options.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/dupimport/common.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/dupimport/dep1.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/dupimport/dep2.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/dupimport/main.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example1.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example1u.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example2.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example3.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example4.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/example5.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/extend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/extend.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/field_name_same_as_package/main.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/field_name_same_as_package/sub.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/groups.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/importRoot/file1.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/importRoot/file2.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/importRoot/file3.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/import_a.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/import_a_single_quote.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/import_b.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/import_common.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/imports-toplevel.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/imports-weak.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/imports.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/imports.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/inner.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/negid.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/nodeunit-browser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/nodeunit-browser/nodeunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/nodeunit-browser/nodeunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/numberformats.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/oneof.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/optional.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/options.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/packed.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/proto2js/Bar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/proto2js/Bar.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/proto2js/Foo.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/proto3.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/protobufnet.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/repeated.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/setarray.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/string_single_quote.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/suite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/toplevel.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/protobufjs/tests/x64.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/node_modules/glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/node_modules/glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/sax/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/sax/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/set-blocking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/set-blocking/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/signal-exit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/signal-exit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-json-comments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-json-comments/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/tar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/tar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wide-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wide-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wrappy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wrappy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/yallist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/grpc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/grpc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/http-parser-js/http-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/http-parser-js/http-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/http-parser-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/http-parser-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/humanize-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/humanize-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/idb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/idb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/inflight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/inflight/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/inherits/inherits.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/inherits/inherits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/inherits/inherits_browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/invert-kv/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/is-plain-obj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/is-plain-obj/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/is-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/is-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/isomorphic-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/isomorphic-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/jsonfile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/jsonfile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lcid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lcid/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lcid/license" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lcid/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lcid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lcid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lcid/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lcid/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lodash.camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lodash.camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lodash.clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lodash.clone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/long/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/long/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/minimatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/tools/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/nan/tools/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/node-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/normalize-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/normalize-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/number-is-nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/number-is-nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/once/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/once/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/optjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/optjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/os-locale/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/os-locale/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/os-locale/license" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/os-locale/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/os-locale/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/os-locale/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/os-locale/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/os-locale/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/path-is-absolute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pify/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pify/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pify/license" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pify/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pinkie-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pinkie-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/pinkie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/pinkie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/prepend-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/prepend-http/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/promise-polyfill/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/promise-polyfill/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/bin/pbjs" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/bin/pbjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/bin/pbts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/bin/pbjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/bin/pbts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/lib/tsd-jsdoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/lib/tsd-jsdoc/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/lib/tsd-jsdoc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/lib/tsd-jsdoc/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/lib/tsd-jsdoc/publish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/os-tmpdir/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/os-tmpdir/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/os-tmpdir/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/tmp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/tmp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/node_modules/tmp/lib/tmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/package.standalone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/pbjs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/pbjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/pbjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/pbts.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/pbts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/json-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/proto2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/proto3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/static-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/targets/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/wrappers/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/wrappers/closure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/wrappers/commonjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/wrappers/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/cli/wrappers/es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/light/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/light/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/light/protobuf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/light/protobuf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/light/protobuf.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/minimal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/minimal/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/minimal/protobuf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/minimal/protobuf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/minimal/protobuf.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/dist/protobuf.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/debug/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/descriptor/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/ext/descriptor/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/api/annotations.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/api/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/api/http.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/api/http.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/descriptor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/source_context.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/type.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/light.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/minimal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/minimal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/scripts/changelog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/scripts/postinstall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/converter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/encoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/index-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/index-minimal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/mapfield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/namespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/oneof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/reader_buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/roots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/rpc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/rpc/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/tokenize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/typescript.jsdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/util/longbits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/util/minimal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/verifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/wrappers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/src/writer_buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/protobufjs/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/query-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/query-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/rimraf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/sort-keys/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/sort-keys/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/strict-uri-encode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/strict-uri-encode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/string-width/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/string-width/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/string-width/license" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/string-width/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/string-width/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/string-width/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/strip-outer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/strip-outer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/strip-url-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/strip-url-auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/trim-repeated/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/trim-repeated/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/tslib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/tslib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/universalify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/universalify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/draft75.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/draft75.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/draft76.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/draft76.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/hybi.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/hybi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/hybi/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/hybi/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/proxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/stream_reader.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/driver/stream_reader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/http_parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/lib/websocket/http_parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/websocket-extensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/websocket-extensions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/whatwg-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/whatwg-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/window-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/window-size/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/wrap-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/wrap-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/wrappy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/wrappy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/xmlhttprequest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/xmlhttprequest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/y18n/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/y18n/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/y18n/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/y18n/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/y18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/completion.sh.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/completion.sh.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/completion.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/completion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/tokenize-arg-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/usage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/lib/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/id.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/id.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pirate.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pirate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/pt_BR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/locales/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/navigation/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/navigation/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/navigation/Header/HeaderOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/navigation/Header/HeaderOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/navigation/MainRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/navigation/MainRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/navigation/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/navigation/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/NavigationReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/NavigationReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-blog/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-blog/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1895088982">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="2" />
+          <entry key="js" value="18" />
+          <entry key="json" value="5" />
+          <entry key="map" value="2" />
+          <entry key="md" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="18" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SourceMap" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="95" />
+          <entry key="html" value="16" />
+          <entry key="js" value="2334" />
+          <entry key="json" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="16" />
+          <entry key="JSON" value="15" />
+          <entry key="JavaScript" value="2334" />
+          <entry key="PLAIN_TEXT" value="95" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/containers/MainContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Modal/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="395">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-blog/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-blog/package.json">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/screens/Portfolio.js">
+        <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Header/HeaderOptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2442">
-              <caret line="119" column="61" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
+            <state relative-caret-position="592">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="101" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,19 +857,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/ContentReducer/actionCreators.js">
+        <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Drawer/Drawer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/screens/About.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="394">
+              <caret line="115" column="169" selection-start-line="115" selection-start-column="169" selection-end-line="115" selection-end-column="169" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -88,18 +869,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-blog/src/containers/cards/AboutBox.js">
+        <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/NavigationReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="198">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-blog/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>png</find>
+      <find>andresferrero</find>
+      <find>andresferrero/</find>
+      <find>&quot;/</find>
+      <find>bars</find>
+      <find>/andresferrero</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Andres\Desktop\andresferrero\my-blog\build</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my-blog/build/service-worker.js" />
+        <option value="$PROJECT_DIR$/my-blog/build/static/js/2.fecb4c53.chunk.js" />
+        <option value="$PROJECT_DIR$/my-blog/build/static/css/main.c53bf42e.chunk.css.map" />
+        <option value="$PROJECT_DIR$/my-blog/build/asset-manifest.json" />
+        <option value="$PROJECT_DIR$/my-blog/build/precache-manifest.f7ed7a328b197598cab6907f9a213297.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/navigation/Header/HeaderOptions.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/navigation/Header/Header.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/navigation/MainRouter.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/index.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionTypes.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionCreators.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/navigation/Modal/Modal.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/navigation/Drawer/Drawer.js" />
+        <option value="$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/NavigationReducer.js" />
+        <option value="$PROJECT_DIR$/my-blog/build/index.html" />
+        <option value="$PROJECT_DIR$/my-blog/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -107,7 +947,220 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/my-blog/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/app-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/app/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/auth/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/database-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/database/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/firestore/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/functions/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/installations/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/logger/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/messaging/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/performance/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/polyfill/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage-types/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/storage/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/util/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@firebase/webchannel-wrapper/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@grpc/proto-loader/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/aspromise/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/base64/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/codegen/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/eventemitter/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/fetch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/float/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/inquire/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/path/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/pool/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@protobufjs/utf8/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@types/long/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/array-union/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/ascli/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/node_modules/long/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/bytebuffer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/colour/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/dom-storage/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/email-addresses/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/filename-reserved-regex/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/filenamify-url/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/filenamify/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/app/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/auth/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/database/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/firestore/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/functions/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/installations/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/messaging/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/performance/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/firebase/storage/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/gh-pages/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/detect-libc/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs-minipass/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ignore-walk/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minipass/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/minizlib/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/needle/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/node-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-bundled/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npm-packlist/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/grpc/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/http-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/humanize-url/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/idb/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/lodash.camelcase/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/lodash.clone/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/long/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/normalize-url/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/optjs/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/promise-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/protobufjs/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/query-string/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/strict-uri-encode/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/strip-outer/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/strip-url-auth/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/trim-repeated/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/websocket-driver/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/websocket-extensions/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/xmlhttprequest/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/my-blog/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="388" />
+    <option name="y" value="115" />
+    <option name="width" value="1537" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -128,45 +1181,21 @@
               <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="andresferrero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andresferrero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andresferrero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andresferrero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andresferrero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andresferrero" type="462c0819:PsiDirectoryNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentReducer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andres\Desktop\andresferrero\my-blog" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +1214,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fa614db-a041-463a-bb3e-634b86b09f81" name="Default Changelist" comment="" />
+      <changelist id="2618f0ac-fb2e-44a3-a878-0d912a60fccb" name="Default Changelist" comment="" />
       <created>1561294890256</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -196,27 +1225,28 @@
       <workItem from="1561893858630" duration="5701000" />
       <workItem from="1561901646956" duration="6522000" />
       <workItem from="1562088122921" duration="295000" />
-      <workItem from="1562089546132" duration="1477000" />
+      <workItem from="1562089546132" duration="1599000" />
+      <workItem from="1562091716640" duration="10109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5000" />
+    <option name="totallyTimeSpent" value="10236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18967333" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18967333" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.38286334" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.38286334" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -226,7 +1256,233 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/ContentReducer/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/screens/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/containers/cards/AboutBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/static/js/2.fecb4c53.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="2523" column="18" lean-forward="true" selection-start-line="2523" selection-start-column="18" selection-end-line="2523" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/static/css/main.c53bf42e.chunk.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/static/css/2.a65581f3.chunk.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/asset-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/precache-manifest.f7ed7a328b197598cab6907f9a213297.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/screens/Portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/MainRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/node_modules/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/containers/MainContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Modal/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Header/HeaderOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="101" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/navigation/Drawer/Drawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="115" column="169" selection-start-line="115" selection-start-column="169" selection-end-line="115" selection-end-column="169" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/src/reducers/NavigationReducer/NavigationReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

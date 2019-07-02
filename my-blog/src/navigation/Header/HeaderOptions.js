@@ -71,7 +71,7 @@ class HeaderOptions extends React.Component{
                             >
                                 <StyledLinkText>
                                     <StyledLink
-                                        to={'/'+(route==='home'?'':route+'/')}
+                                        to={'/andresferrero/'+(route==='home'?'':route+'/')}
                                         onClick={()=>this.props.navigate_to(route)}
                                         active={this.props.current_route===route}
                                     >

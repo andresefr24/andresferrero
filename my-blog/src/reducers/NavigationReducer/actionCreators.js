@@ -14,3 +14,9 @@ export const toggle_modal = (val,content) =>{
         content:content
     }
 };
+
+export const toggle_drawer = () =>{
+    return{
+        type:actionTypes.TOGGLE_DRAWER
+    }
+};

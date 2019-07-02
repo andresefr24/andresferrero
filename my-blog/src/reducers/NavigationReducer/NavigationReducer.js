@@ -6,7 +6,8 @@ const initialState = {
     modal:{
         is_visible:false,
         content:undefined
-    }
+    },
+    drawer_is_open:false
 };
 
 const NavigationReducer = (state = initialState, action) => {
@@ -23,6 +24,10 @@ const NavigationReducer = (state = initialState, action) => {
                 is_visible:action.val,
                 content:action.content
             }
+        });
+
+        case actionTypes.TOGGLE_DRAWER:return utility.updateObject(state,{
+            drawer_is_open: !state.drawer_is_open
         });
 
         default: return state;

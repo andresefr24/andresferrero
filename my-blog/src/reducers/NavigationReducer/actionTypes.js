@@ -1,2 +1,3 @@
 export const NAVIGATE_TO = 'NAVIGATE_TO';
 export const TOGGLE_MODAL = 'TOGGLE_MODAL';
+export const TOGGLE_DRAWER = 'TOGGLE_DRAWER';
