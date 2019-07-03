@@ -9,6 +9,8 @@ const BackgroundModalLayer = styled.div`
     top:0;
     left:0;
     display:flex;
+    justify-content:center;
+    align-items:center;
     width:100vw;
     height:100vh;
     background-color:rgba(0,0,0,0.5);
@@ -17,8 +19,32 @@ const BackgroundModalLayer = styled.div`
 
 const ModalContent = styled.div`
     width:100%;
-    height:100%;
-    padding:1vw;
+    height:100%;    
+    
+    @media (max-width: 1199px) {         
+        padding-top:1vw;
+        padding-bottom:1vw;
+    }
+    
+    @media (max-width: 991px) { 
+        padding-top:3vw;
+        padding-bottom:3vw;     
+    }
+    
+    @media (max-width: 767px) {         
+        padding-top:5vw;
+        padding-bottom:5vw;
+    }
+    
+    @media (max-width: 575px) {                 
+        padding-top:5vw;
+        padding-bottom:5vw;  
+    }
+    
+    @media (min-width: 1200px) {         
+        padding-top:1vw;
+        padding-bottom:1vw;
+    }      
 `;
 
 const ModalTitle = styled.p`
@@ -38,9 +64,10 @@ class Modal extends React.Component {
                     }}
                 >
                     <Container fluid
+                               style={{maxHeight:'80vh',overflowY:'scroll'}}
                     >
                         <Row
-                            style={{height: '100vh', alignItems: 'center', justifyContent: 'center'}}
+                            style={{alignItems: 'center', justifyContent: 'center'}}
                         >
                             <Col
                                 xs={12} sm={12} md={10} lg={6} xl={6}

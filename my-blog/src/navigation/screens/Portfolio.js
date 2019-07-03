@@ -16,7 +16,7 @@ const PortfolioCard = styled(Col)`
     
     @media (max-width: 575px) {         
         min-height:52vw;
-        margin-bottom:5vw;
+        margin-bottom:5vw;        
     }
     
     @media (max-width: 767px) { 
@@ -44,11 +44,7 @@ const PortfolioCardLayout = styled.div`
     background-position:center;
     background-image:url(${props=>process.env.PUBLIC_URL+'/assets/img/portfolio/'+props.mediaFolder+'/'+props.backgroundImage});
     background-color:${props=>props.theme.colors.primary_dark};        
-    cursor:pointer;  
-    
-    &:hover{
-        
-    }     
+    cursor:pointer;     
 `;
 
 const DarkLayer = styled.div`
@@ -58,25 +54,26 @@ const DarkLayer = styled.div`
     color:${props=>props.theme.colors.light};
     
     &:hover{
-        .hidden-tag{
-            bottom:0vw;
-        }
+        opacity:1;
     }
 `;
 
-const PortfolioShowcaseTitle = styled.p`   
-    font-size:25px;
-    position:absolute;
-    left:2vw;
-    top:1.25vw;        
+const PortfolioShowcaseTitle = styled.p`       
+    position:absolute;    
+    margin:0;
+    width:90%;
+    margin-left:5%;
+    top:6%;      
 `;
 
 const DetailsTag = styled.p`    
     font-size:15px;
     position:absolute;
-    right:2vw;
-    bottom:-5vw;    
-    transition:bottom 0.3s;   
+    right:22px;
+    bottom:15px;    
+    transition:opacity 0.3s;
+    opacity:0;   
+    margin:0;
 `;
 
 const CenteringRow = styled(Row)`
@@ -93,7 +90,7 @@ const CenteringRow = styled(Row)`
 
 class Portfolio extends React.Component{
     render(){
-        console.log(this.props.content.portfolio);
+        //console.log(this.props.content.portfolio);
         return(
             <SectionContainer>
                 <Row>
@@ -112,17 +109,18 @@ class Portfolio extends React.Component{
                                     contents:
                                     <div>
                                         <p>{project.date}</p>
-                                        <p>{project.client}</p>
+                                        <p>Made for: {project.client}</p>
                                         <p>{project.description}</p>
-                                        <p>Additional images:</p>
+                                        <p>Gallery:</p>
                                         <Carousel
                                             showArrows={true}
                                             showThumbs={false}
+                                            dynamicHeight
                                         >
                                             {
                                                 project.images.map((image,index2)=>{
                                                     return(
-                                                        <div>
+                                                        <div key={index2}>
                                                             <img src={process.env.PUBLIC_URL+'/assets/img/portfolio/'+project.media_folder+'/'+project.images[index2]} />
                                                         </div>
                                                     )

@@ -12,10 +12,11 @@ import capitalizeString from "../../helpers/capitalizeString";
 const StyledDrawerContainer = styled.div`
     position:fixed;
     top:0;
-    right:0;
+    right:100vw;
     height:100vh;
     width:100vw;
     z-index:100;
+    overflow:visible;
 
     @media (max-width: 575px) {        
         display:block;
@@ -36,7 +37,7 @@ const DrawerButton = styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
-    left:0;
+    left:100vw;
     top:0;
     background-color:${props => props.theme.colors.primary_dark};   
     z-index:1000;
@@ -57,9 +58,9 @@ const DrawerSlide = styled.div`
     width:100vw;
     height:100vh;
     background-color:${props => props.theme.colors.primary_dark};
-    right:${props => props.open ? '0' : '100'}vw;
+    left:${props => props.open ? '100' : '0'}vw;
     top:0;
-    transition:right 0.3s;   
+    transition:left 0.3s;   
     z-index:999;
     
     @media (max-width: 575px) {                
@@ -76,7 +77,7 @@ const StyledLink = styled(Link)`
     width:100%;
     font-family:Arial; 
     color:${props=>props.theme.colors.primary_light};   
-    font-size:20px;
+    font-size:18px;
     line-height:60px;
     transition:color 0.3s;                    
 `;
@@ -99,7 +100,7 @@ class Drawer extends React.Component {
                             <FontAwesomeIcon
                                 icon={faBars}
                                 size={"lg"}
-                                color={this.props.theme.colors.light}
+                                color={this.props.theme.colors.secondary}
                             />
                     }
                 </DrawerButton>
@@ -111,9 +112,8 @@ class Drawer extends React.Component {
                             Object.keys(routes).map((route, index) => {
                                 if(route!==this.props.current_route){
                                     return (
-                                        <Row>
-                                            <Col xs={1} sm={1}/>
-                                            <Col xs={10} sm={10} style={{borderBottom:Object.keys(routes).length-1>index?'solid 1px '+this.props.theme.colors.secondary:''}}>
+                                        <Row key={index} style={{justifyContent:'center'}}>
+                                            <Col xs={11} sm={11} style={{borderBottom:Object.keys(routes).length-1>index?'solid 1px '+this.props.theme.colors.secondary:''}}>
                                                 <StyledLink
                                                     to={'/andresferrero/'+(route==='home'?'':route+'/')}
                                                     onClick={()=>{
@@ -126,7 +126,6 @@ class Drawer extends React.Component {
                                                     }
                                                 </StyledLink>
                                             </Col>
-                                            <Col xs={1} sm={1}/>
                                         </Row>
                                     )
                                 }
