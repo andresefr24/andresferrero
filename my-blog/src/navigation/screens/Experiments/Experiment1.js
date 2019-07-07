@@ -79,7 +79,7 @@ class Experiment1 extends React.Component {
                         left: 0,
                         width: '100%',
                         display: 'flex',
-                        justifyContent: 'center',
+                        justifyContent: 'center'
                     }}
                 >
                     <Container fluid>
