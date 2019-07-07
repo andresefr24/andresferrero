@@ -64,24 +64,27 @@ class HeaderOptions extends React.Component{
             >
                 {
                     Object.keys(routes).map((route,index)=>{
-                        return(
-                            <div
-                                key={index}
-                                style={{justifyContent:'center',alignItems:'center',paddingRight:'3vw'}}
-                            >
-                                <StyledLinkText>
-                                    <StyledLink
-                                        to={'/andresferrero/'+(route==='home'?'':route+'/')}
-                                        onClick={()=>this.props.navigate_to(route)}
-                                        active={this.props.current_route===route}
-                                    >
-                                        {
-                                            capitalizeString(route)
-                                        }
+                        if(!route.includes('/')) {
+                            return (
+                                <div
+                                    key={index}
+                                    style={{justifyContent: 'center', alignItems: 'center', paddingRight: '3vw'}}
+                                >
+                                    <StyledLinkText>
+                                        <StyledLink
+                                            to={'/andresferrero/' + (route === 'home' ? '' : route + '/')}
+                                            onClick={() => this.props.navigate_to(route)}
+                                            active={this.props.current_route === route}
+                                        >
+                                            {
+                                                capitalizeString(route)
+                                            }
                                         </StyledLink>
-                                </StyledLinkText>
-                            </div>
-                        )
+                                    </StyledLinkText>
+                                </div>
+                            )
+                        }
+                        else{return null}
                     })
                 }
             </Row>

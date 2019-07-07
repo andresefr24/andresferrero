@@ -296,5 +296,13 @@
       "images":["snownetworkcorp1.jpg","snownetworkcorp2.jpg","snownetworkcorp3.png","snownetworkcorp4.png"],
       "media_folder":"snownetworkcorp"
     }
+  ],
+  "experiments":[
+    {
+      "name":"Recursive fractals",
+      "date":"07/07/2019",
+      "description":"",
+      "image":""
+    }
   ]
 }

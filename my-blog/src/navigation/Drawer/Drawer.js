@@ -110,7 +110,7 @@ class Drawer extends React.Component {
                     <Container fluid>
                         {
                             Object.keys(routes).map((route, index) => {
-                                if(route!==this.props.current_route){
+                                if(route!==this.props.current_route && !route.includes('/')){
                                     return (
                                         <Row key={index} style={{justifyContent:'center'}}>
                                             <Col xs={11} sm={11} style={{borderBottom:Object.keys(routes).length-1>index?'solid 1px '+this.props.theme.colors.secondary:''}}>

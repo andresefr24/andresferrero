@@ -4,7 +4,7 @@ import {Row,Col} from "reactstrap";
 
 const StyledContainer = styled(Row)`    
     min-height:100vh;
-    justify-content:center;
+    justify-content:center;    
     
     @media (max-width: 575px) { 
         padding-top:${props => props.theme.measures.header_height.xs};

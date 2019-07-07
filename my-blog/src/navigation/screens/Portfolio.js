@@ -7,74 +7,11 @@ import SectionTitle from "../../components/labels/SectionTitle";
 import * as NavigationActionCreators from "../../reducers/NavigationReducer/actionCreators";
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-const PortfolioCard = styled(Col)`    
-    padding-left:0.5vw;
-    padding-right:0.5vw;    
-    margin-bottom:1vw;    
-    overflow:hidden;
-    
-    @media (max-width: 575px) {         
-        min-height:52vw;
-        margin-bottom:5vw;        
-    }
-    
-    @media (max-width: 767px) { 
-        height:52vw;
-        margin-bottom:5vw;
-    }
-    
-    @media (max-width: 991px) { 
-        min-height:32vw;        
-    }
-    
-    @media (max-width: 1199px) {         
-        min-height:19vw;
-    }
-    
-    @media (min-width: 1200px) {         
-        min-height:19vw;
-    }    
-`;
-
-const PortfolioCardLayout = styled.div`
-    width:100%;
-    height:100%;    
-    background-size:cover;
-    background-position:center;
-    background-image:url(${props=>process.env.PUBLIC_URL+'/assets/img/portfolio/'+props.mediaFolder+'/'+props.backgroundImage});
-    background-color:${props=>props.theme.colors.primary_dark};        
-    cursor:pointer;     
-`;
-
-const DarkLayer = styled.div`
-    width:100%;
-    height:100%;
-    background-image:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.7));
-    color:${props=>props.theme.colors.light};
-    
-    &:hover{
-        opacity:1;
-    }
-`;
-
-const PortfolioShowcaseTitle = styled.p`       
-    position:absolute;    
-    margin:0;
-    width:90%;
-    margin-left:5%;
-    top:6%;      
-`;
-
-const DetailsTag = styled.p`    
-    font-size:15px;
-    position:absolute;
-    right:22px;
-    bottom:15px;    
-    transition:opacity 0.3s;
-    opacity:0;   
-    margin:0;
-`;
+import PortfolioCard from "../../containers/cards/portfolio/PortfolioCard";
+import PortfolioCardLayout from "../../containers/cards/portfolio/PortfolioCardLayout";
+import PortfolioShowcaseTitle from "../../containers/cards/portfolio/PortfolioShowcaseTitle";
+import DarkLayer from "../../components/DarkLayer";
+import DetailsTag from "../../containers/cards/portfolio/DetailsTag";
 
 const CenteringRow = styled(Row)`
     margin:0;
@@ -132,7 +69,7 @@ class Portfolio extends React.Component{
                                 })}
                             >
                                 <PortfolioCardLayout
-                                    mediaFolder={project.media_folder}
+                                    mediaFolder={'portfolio/'+project.media_folder}
                                     backgroundImage={project.images[0]}
                                 >
                                     <DarkLayer>
